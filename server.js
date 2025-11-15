@@ -17,6 +17,7 @@ const tokens = [
 ];
 let tokenIndex = 0;
 
+
 function getToken() {
     tokenIndex = (tokenIndex + 1) % tokens.length;
     return tokens[tokenIndex];
